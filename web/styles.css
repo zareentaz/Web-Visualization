@@ -1,0 +1,44 @@
+body {
+    background: lightblue;
+  }
+    .navbar li {
+       display: d-block;
+       padding: 10px;
+       margin-right: 0px;
+       margin-left: 0px;
+       cursor: pointer;
+     }
+  .nav class{
+   /*
+   color: rgb(81, 255, 0);
+    #text-decoration-color: blue;
+    */
+  }
+  @media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+    .navbar ul {
+      visibility: hidden;
+    }
+    #nav-select {
+      visibility: visible;
+    }
+  }
+    .navbar{
+       margin-right: 0px;
+       margin-left: 0px;
+       margin-top: 0px;
+       padding: 25px;
+       background: #5D6D7E;
+   }
+   .box{
+    padding: 10px;
+    background: white;
+    margin-top:50px;
+    margin-left:40px;
+    margin-right:10px;
+    margin-bottom:20px;
+    align-content: center;
+  }
+  
